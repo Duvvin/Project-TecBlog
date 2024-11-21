@@ -1,0 +1,69 @@
+    * {
+        padding: 0px; margin: 0px;
+    }
+    body {
+        font-size: 1em; font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    }
+    #cabecalho {
+        background: orange; text-align: center; padding: 10px;
+    }
+    #logo {
+        color: rgb(70, 70, 70); font-size: 2em; padding: 15px; margin: 15px;
+    }
+    .white {
+        color: white;
+    }
+    #links {
+        padding: 10px; margin: 5px;
+    }
+    #links a:link, #links a:visited{
+        text-decoration: none; color: white; font-size: 1.3em; padding: 8px 12px; margin: 10px;
+    }
+    #links a:hover {
+        background: white; color: orange;
+    }
+    a {
+        color: orange; text-decoration: underline;
+    }
+    a:link a:visited {
+        color: orange; text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .conteudo {
+        width: 920px; margin: auto; padding: 20px 0px 10px
+    }
+    .postageml {
+        width: 645px; padding: 20px 0px 10px; float: left; position: relative;
+    }
+    .postagemr {
+        width: 240px; padding: 15px 0px; float: right; position: relative;
+    }
+    h2 {
+        padding: 10px 0px 10px; color: orange; font-size: 1.7em;
+    }
+    p {
+        font-size: 1em; padding: 5px 0px 0px 0px;
+    }
+    .data {
+        font-size: 0.8em;
+    }
+    .post {
+        padding-bottom: 20px;
+    }
+    h3 {
+        color: rgb(70, 70, 70); background: rgb(192, 192, 192)
+    }
+    .postr {
+        margin: 5px;
+    }
+    .postagemr a {
+        text-decoration: none; color: orange; padding: 5px 0px;
+    }
+    .postagemr a:hover {
+        color: white; background: orange;
+    }
+    li {
+        padding: 5px 0px; bottom: none; list-style-type: none; margin: 3px;
+    }
